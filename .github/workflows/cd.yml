@@ -31,9 +31,9 @@ name: Lumi Agent CD
 on:
   # 여기에 구현하세요!
   workflow_run:
-    workflows: ["Lumi Agent CI"]   
-    types: [completed]             
-    branches: [main]   
+    workflows: ["Lumi Agent CI"]
+    types: [completed]
+    branches: [main]
 
   # 수동 실행 허용 (긴급 배포/롤백용)
   workflow_dispatch:

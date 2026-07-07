@@ -20,9 +20,9 @@ router = APIRouter()
 
 # TODO 2: 헬스체크 엔드포인트 구현
 
+
 @router.get("/")
 async def health_check() -> dict:
-    
     return {
         "status": "healthy",
         "timestamp": datetime.now(UTC).isoformat(),
